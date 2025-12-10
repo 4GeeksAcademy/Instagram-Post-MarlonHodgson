@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Body styling - creates centered layout with Instagram-like background */
+/* Body styling - Instagram-like background */
 body {
   font-family: Roboto-type;
   background-color: #000000;
@@ -16,7 +16,7 @@ body {
   padding: 20px;
 }
 
-/* Main post container - the white card */
+/* Main post container */
 .post {
   background-color: white;
   border: 1px solid #dbdbdb;
@@ -26,7 +26,7 @@ body {
   overflow: hidden;
 }
 
-/* Header section with logo and username */
+/* Header section with logo and my name */
 .post__header {
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ body {
   flex-grow: 1;
 }
 
-/* Full name - bigger and bold */
+/* my full name - bigger and bold */
 .post__header-text h1 {
   font-size: 16px;
   font-weight: 600;
@@ -76,7 +76,7 @@ body {
   line-height: 1.2;
 }
 
-/* Three dots menu (if needed) */
+/* Three dots menu (unicode character) */
 .post__header::after {
   content: "⋮";
   position: absolute;
@@ -94,7 +94,7 @@ body {
   object-fit: cover;
 }
 
-/* Post body - contains icons and text */
+/* Post body - icons and text */
 .post-body {
   padding: 0 16px 16px 16px;
 }
